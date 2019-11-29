@@ -428,7 +428,7 @@ body {
 
 .information {
     padding-right: 20%;
-    padding-left: 30%;
+    padding-left: 20%;
     margin-bottom: 2vh;
 }
 
@@ -448,13 +448,14 @@ body {
 
 .navigation {
     padding-right: 20%;
-    padding-left: 30%;
+    padding-left: 20%;
     margin-bottom: 2vh;
 }
 
 .navigation__items {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .navigation__search-with-button {
@@ -462,7 +463,12 @@ body {
 }
 
 .navigation__main-logo {
+ 
+}
 
+.navigation__img {
+  height: 40px;
+  display: block;
 }
 
 .navigation__search {
@@ -477,15 +483,20 @@ body {
 }
 
 .navigation__text {
-
+  display: flex;
+  justify-content: space-between;
+  margin-left: 13%;
+  margin-top: 1vh;
 }
 
 .navigation__add {
-
+  text-decoration: none;
+  color: black;
 }
 
 .navigation__download {
-  
+  text-decoration: none;
+  color: black;
 }
 
 .banner {
@@ -512,17 +523,6 @@ body {
 
 }
 
-.navigation__text {
-
-}
-
-.navigation__add {
-
-}
-
-.navigation__download {
-
-}
 
 .traffic {
     padding-right: 20%;
