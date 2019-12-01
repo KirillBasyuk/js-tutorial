@@ -1,89 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <title>RawJS</title>
 </head>
+
 <body>
 
-<svg class="app__header-icon"
-     width="20px"
-     height="20px"
-     viewBox="0 0 20 20">
-    <use href="#bell"></use>
-</svg>
+    <svg class="app__header-icon" width="20px" height="20px" viewBox="0 0 20 20">
+        <use href="#bell"></use>
+    </svg>
 
-<!--<div class="menu">-->
+    <!--<div class="menu">-->
 
-<!--</div>-->
+    <!--</div>-->
 
 
 
 
 
-    <div class="main">
-        <header class="Header">
-            <ul class="Header__list">
-                <li class="Header__list-item"><a href="#" class="Header__link">Москва</a></li>
-                <li class="Header__list-item"><a href="#" class="Header__link">Конфиденциальность</a></li>
-            </ul>
-            <a href="#" class="Header__link">Настройка</a>
+    <main class="main">
+        <section class="main__header">
+            <header class="header">
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a href="#" class="link"><span class="link__content">Москва</span></a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#" class="link"><span class="link__content">Конфиденциальность</span></a>
+                    </li>
+                </ul>
+                <a href="#" class="link"><span class="link__content">Настройка</span></a>
+            </header>
+        </section>
 
-        </header>
 
-
-        <div class="news">
-            <div class="news__main-news">
-                <a href="#" class="news__main-link _important">Сейчас в СМИ</a>
-                <a href="#" class="news__main-link _important">В Москве</a>
-                <div class="news__date">
-                    <p class="news__date__year"></p>
-                    <p class="news__date__time"></p>
-                </div>
+        <section class="news">
+            <div class="news__current-news">
+                <a href="#" class="link _important"><span class="link__content">Сейчас в СМИ</span></a>
+                <a href="#" class="link _important"><span class="link__content">В Москве</span></a>
+                <p class="news__date">1 декабря, воскресенье 19:45</p>
             </div>
             <ul class="news__news-list">
-                <li class="news__item"><a href="#" class="news__link">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem itaque accusamus
-                    cum ipsam nisi corrupt</a></li>
-                <li class="news__item"><a href="#" class="news__link">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem itaque accusamus
-                    cum ipsam nisi corrupt</a></li>
-                <li class="news__item"><a href="#" class="news__link">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem itaque accusamus
-                    cum ipsam nisi corrupt</a></li>
-                <li class="news__item"><a href="#" class="news__link">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem itaque accusamus
-                    cum ipsam nisi corrupt</a></li>
-                <li class="news__item "><a href="#" class="news__link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, atque!</a></li>
+                <li class="news__item">
+                    <a href="#" class="link">
+                        <span class="link__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti</span>
+                    </a>
+                </li>
+                <li class="news__item">
+                    <a href="#" class="link">
+                        <span class="link__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti</span>
+                    </a>
+                </li>
+                <li class="news__item">
+                    <a href="#" class="link">
+                        <span class="link__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti</span>
+                    </a>
+                </li>
+                <li class="news__item">
+                    <a href="#" class="link">
+                        <span class="link__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti.</span>
+                    </a>
+                </li>
+                <li class="news__item ">
+                    <a href="#" class="link">
+                        <span class="link__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti</span>
+                    </a>
+                </li>
             </ul>
-        </div>
- 
+        </section>>
+
         <div class="currency">
-            <span class="currency__item"><b class="currency__name">USD MOEX 64,10</b> +0,14</</span>
-            <span class="currency__item"><b class="currency__name">EUR MOEX 70,55</b> +0,21</</span>
-            <span class="currency__item"><b class="currency__name">НЕФТЬ 63,40</b> −1,18%</</span>
+            <span class="currency__item"><b class="currency__name">USD MOEX 64,10</b> +0,14</span>
+            <span class="currency__item"><b class="currency__name">EUR MOEX 70,55</b> +0,21</span> 
+            <span class="currency__item"><b class="currency__name">НЕФТЬ 63,40</b> −1,18%</span> 
         </div>
 
         <div class="information">
             <ul class="information__information-list">
-                <li class="information__item"><a href='#' class='information__ref'>Видео</a></li>
-                <li class="information__item"><a href='#' class='information__ref'>Картинки</a></li>
-                <li class="information__item"><a href='#' class='information__ref'>Новости</a></li>
-                <li class="information__item"><a href='#' class='information__ref'>Карты</a></li>
-                <li class="information__item"><a href='#' class='information__ref'>Маркет</a></li>
-                <li class="information__item"><a href='#' class='information__ref'>Переводчик</a></li>
-                <li class="information__item"><a href='#' class='information__ref'>Музыка</a></li>
-                <li class="information__item"><a href='#' class='information__ref'>еще</a></li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">Видео</span></a>
+                </li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">Картинки</span></a>
+                </li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">Новости</span></a>
+                </li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">Карты</span></a>
+                </li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">Маркет</span></a>
+                </li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">Переводчик</span></a>
+                </li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">Музыка</span></a>
+                </li>
+                <li class="information__item">
+                    <a href="#" class="link"><span class="link__content _theme-color">еще</span></a>
+                </li>
             </ul>
-
         </div>
 
         <nav class="navigation">
             <div class="navigation__items">
-                <a href='#' class="navigation__main-logo"><img class="navigation__img" src="images/main-logo.jpg"></a>
-                <div class="navigation__search-with-button">
-                    <input type="text" class="navigation__search">
+                <a href='#' class="navigation__logo-yandex"><img class="navigation__img" src="assets/images/main-logo.jpg"></a>
+                <div class="navigation__search">
+                    <input type="text" class="navigation__input">
                     <input type="button" class="naviation__search-button" value="Найти">
                 </div>
             </div>
-            
             <div class="navigation__text">
                 <a href='#' class='navigation__add'>Найдётся всё. Например, периметр квадрата</a>
                 <a href='#' class="navigation__download">Установите быстрый браузер</a>
@@ -91,15 +122,14 @@
         </nav>
 
         <div class="banner">
-            <img class="banner__item" src="images/banner1.jpg">
+            <img class="banner__item" src="assets/images/banner1.jpg">
         </div>
 
-        
-        <div class="latest-changes">
-            <ul class="latest-changes__weather-list">
+
+        <div class="weather">
+            <ul class="weather__weather-list">
                 <li class="latest-changes__item">Погода</li>
-                <li class="latest-changes__item"></li>
-                <li class="latest-changes__item"></li>
+                <img class="weather__img">
             </ul>
         </div>
 
@@ -152,49 +182,43 @@
             </ul>
         </div>
 
-    </div>
+        </div>
+    </main>
 
-    <div class='sidebar'>
-        <div class="mail">
-            <div class="mail__block1">
-                <a href='#' class="mail__block1__link1">
-                    Почта
-                </a>
-                <a href='#' class="mail__block1__link2">
-                    Завести почту
-                </a>
-            </div>
-            <div class="mail__block2">
-                <button class="mail__button">Войти в почту</button>
-            </div>
-            <div class="mail__block3">
-                <a class="mail__link" href="#">Получить плюс</a>
+        <div class='sidebar'>
+            <div class="mail">
+                <div class="mail__register">
+                    <a href='#' class="mail__left-block">
+                        Почта
+                    </a>
+                    <a href='#' class="mail__right-block">
+                        Завести почту
+                    </a>
+                </div>
+                <div class="mail__enter">
+                    <button class="mail__button">Войти в почту</button>
+                </div>
+                <div class="mail__bonus">
+                    <a class="mail__recieve" href="#">Получить плюс</a>
+                </div>
             </div>
         </div>
-    </div>
-
-
-
-
-
-
-
-<script src="js.js"></script>
-
-
 </body>
 
 <div style="opacity: 0; visibility: hidden">
     <!-- inject:svg -->
     <svg xmlns="http://www.w3.org/2000/svg">
         <symbol id="bell" viewBox="0 0 16 18">
-            <path d="M12.65 7.365C10.37 2.458 9.184.594 5.459.672 4.132.699 4.45-.29 3.438.085c-1.01.375-.143.924-1.177 1.773C-.641 4.241-.374 6.445.972 11.698c.567 2.213-1.367 2.321-.602 4.465.559 1.564 4.679 2.219 9.025.607 4.347-1.613 7.086-4.814 6.527-6.378-.765-2.145-2.311-.961-3.272-3.027zm-3.726 8.083c-3.882 1.44-7.072.594-7.207.217-.232-.65 1.253-2.816 5.691-4.463 4.438-1.647 6.915-1.036 7.174-.311.153.429-1.775 3.116-5.658 4.557zm-1.248-3.494c-2.029.753-3.439 1.614-4.353 2.389.643.584 1.847.726 3.046.281 1.527-.565 2.466-1.866 2.095-2.904l-.016-.036c-.251.082-.508.171-.772.27z"/>
+            <path
+                d="M12.65 7.365C10.37 2.458 9.184.594 5.459.672 4.132.699 4.45-.29 3.438.085c-1.01.375-.143.924-1.177 1.773C-.641 4.241-.374 6.445.972 11.698c.567 2.213-1.367 2.321-.602 4.465.559 1.564 4.679 2.219 9.025.607 4.347-1.613 7.086-4.814 6.527-6.378-.765-2.145-2.311-.961-3.272-3.027zm-3.726 8.083c-3.882 1.44-7.072.594-7.207.217-.232-.65 1.253-2.816 5.691-4.463 4.438-1.647 6.915-1.036 7.174-.311.153.429-1.775 3.116-5.658 4.557zm-1.248-3.494c-2.029.753-3.439 1.614-4.353 2.389.643.584 1.847.726 3.046.281 1.527-.565 2.466-1.866 2.095-2.904l-.016-.036c-.251.082-.508.171-.772.27z" />
         </symbol>
         <symbol id="eye" viewBox="0 0 24 18">
-            <path d="M12 0C2.969 0 0 8.188 0 8.188s2.969 8.189 12 8.189c9.03 0 12-8.189 12-8.189S21.03 0 12 0zm0 14.04c-3.38 0-6.118-2.62-6.118-5.852 0-3.231 2.739-5.853 6.118-5.853 3.38 0 6.117 2.622 6.117 5.853 0 3.232-2.738 5.852-6.117 5.852zm0-5.852c-.56-.607.913-2.926 0-2.926-1.69 0-3.06 1.311-3.06 2.926 0 1.616 1.37 2.927 3.06 2.927 1.689 0 3.06-1.311 3.06-2.927 0-.743-2.584.515-3.06 0z"/>
+            <path
+                d="M12 0C2.969 0 0 8.188 0 8.188s2.969 8.189 12 8.189c9.03 0 12-8.189 12-8.189S21.03 0 12 0zm0 14.04c-3.38 0-6.118-2.62-6.118-5.852 0-3.231 2.739-5.853 6.118-5.853 3.38 0 6.117 2.622 6.117 5.853 0 3.232-2.738 5.852-6.117 5.852zm0-5.852c-.56-.607.913-2.926 0-2.926-1.69 0-3.06 1.311-3.06 2.926 0 1.616 1.37 2.927 3.06 2.927 1.689 0 3.06-1.311 3.06-2.927 0-.743-2.584.515-3.06 0z" />
         </symbol>
         <symbol id="menu" viewBox="0 0 20 20">
-            <path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z"/>
+            <path
+                d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z" />
         </symbol>
     </svg>
     <!-- endinject -->
